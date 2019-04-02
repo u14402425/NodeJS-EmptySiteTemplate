@@ -1,12 +1,19 @@
 {
-  "name": "application-name",
-  "version": "2.0.0",
-  "private": true,
+  "name": "git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server"
-  },  
-"license": "Apache",
-"engines": {
-    "node": "~0.10.0 || ~4.2.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sqlite-json": "^1.1.0",
+    "sqlite3": "^4.0.6",
+    "typescript": "^3.3.3333"
   }
 }
